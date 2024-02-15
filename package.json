@@ -1,13 +1,7 @@
 {
-  "name": "anitaportfolio",
-  "version": "1.0.0",
-  "description": "",
-  "main": "tailwind.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tailwindcss --input src/static/tailwind/tailwind-input.css --output src/static/css/output.css --watch"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.4.1"
   }
